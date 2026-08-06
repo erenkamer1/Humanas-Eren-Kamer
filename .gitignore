@@ -3,11 +3,6 @@
 .DS_Store
 
 docs/internal/
-eren-docs/
-mistakes.md
-
-.cursor/
-.codebase-memory/
 
 bin/
 obj/
