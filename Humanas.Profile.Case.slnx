@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Humanas.Profile.Api/Humanas.Profile.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Humanas.Profile.Tests/Humanas.Profile.Tests.csproj" />
+  </Folder>
+</Solution>

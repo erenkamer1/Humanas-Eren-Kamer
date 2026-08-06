@@ -1,0 +1,19 @@
+# Add whatever your stack generates below (dependencies, build output, etc).
+.env
+.DS_Store
+
+docs/internal/
+eren-docs/
+mistakes.md
+
+.cursor/
+.codebase-memory/
+
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+

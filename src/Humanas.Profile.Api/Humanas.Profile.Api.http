@@ -1,0 +1,17 @@
+@Humanas.Profile.Api_HostAddress = https://localhost:7179
+
+### Create profile
+POST {{Humanas.Profile.Api_HostAddress}}/api/profiles
+Content-Type: application/json
+
+{
+  "name": "Eren Kamer",
+  "headline": "Full Stack Software Developer",
+  "skills": ["C#", ".NET", "React"]
+}
+
+### Get profile (replace id)
+GET {{Humanas.Profile.Api_HostAddress}}/api/profiles/00000000-0000-0000-0000-000000000000
+
+### Get missing profile
+GET {{Humanas.Profile.Api_HostAddress}}/api/profiles/00000000-0000-0000-0000-000000000001
